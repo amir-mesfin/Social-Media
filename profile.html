@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=  , initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>profile page</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav_left">
+        <img src="./imges/icon1.png" class="logo" />
+        <ul>
+          <li><img src="./imges/icon2.png" alt="" /></li>
+          <li><img src="./imges/icon3.png" alt="" /></li>
+          <li><img src="./imges/icon4.png" alt="" /></li>
+        </ul>
+      </div>
+      <div class="nav_right">
+        <div class="search_box">
+          <img src="./imges/search_icon2.png" alt="" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav_user_icon oline" onclick="settingsMenuToggle()">
+          <img src="./imges/profile_picture.png" alt="" />
+        </div>
+      </div>
+      <!-- settings_menu -->
+      <div class="settings_menu">
+        <div id="dark_botton">
+          <span></span>
+        </div>
+
+        <div class="setting_menu_inner">
+          <div class="user_profile">
+            <img src="./imges/profile_picture.png" />
+            <div>
+              <p>Abushe</p>
+              <a href="#">See your Profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user_profile">
+            <img src="./imges/feedback.png" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help Us To Improve new design</a>
+            </div>
+          </div>
+          <hr />
+          <div class="setting_link">
+            <img src="./imges/arrow.png" class="setting_icon" />
+            <a href="#"
+              >Setting and privacy <img src="./imges/arrow1.png" width="10px"
+            /></a>
+          </div>
+          <div class="setting_link">
+            <img src="./imges/help.png" class="setting_icon" />
+            <a href="#"
+              >Help and support <img src="./imges/arrow1.png" width="10px"
+            /></a>
+          </div>
+          <div class="setting_link">
+            <img src="./imges/display.png" class="setting_icon" />
+            <a href="#"
+              >display and accessibility
+              <img src="./imges/arrow1.png" width="10px"
+            /></a>
+          </div>
+          <div class="setting_link">
+            <img src="./imges/logout.png" class="setting_icon" />
+            <a href="#">logout <img src="./imges/arrow1.png" width="10px" /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="profile-container">
+      <img src="./images/cover.png" alt="" class="cover-img" />
+      <div class="profile-details">
+        <div class="pd-left">
+          <div class="pd-row">
+            <img src="images/profile.png" alt="" class="pd-img" />
+            <div>
+              <h3>abushe mesfin</h3>
+              <p>120 Friends - 20 mutual</p>
+              <img src="imges/member1.png" alt="" />
+              <img src="imges/member2.png" alt="" />
+              <img src="imges/member3.png" alt="" />
+              <img src="imges/member1.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="pd-right">
+          <button type="button">
+            <img src="images/add-friends.png" alt="" />Friend
+          </button>
+          <button type="button">
+            <img src="images/comments.png" salt="" />message
+          </button>
+          <br />
+          <a href="">
+            <img src="images/more.png" alt="" />
+          </a>
+        </div>
+      </div>
+
+      <div class="profile-info">
+        <div class="info-col">
+          <div class="profile-intro">
+            <h3>intro</h3>
+            <p class="intro-text">
+              believe in your self and can do unbelievable thing
+              <img src="images/feeling.png" alt="" />
+            </p>
+            <hr />
+            <ul>
+              <li>
+                <img src="images/profile-job.png" alt="" />director at 99media
+                ltd
+              </li>
+              <li>
+                <img src="images/profile-study.png" alt="" />director at 99media
+                ltd
+              </li>
+              <li>
+                <img src="images/profile-study.png" alt="" />director at 99media
+                ltd
+              </li>
+              <li>
+                <img src="images/profile-location.png" alt="" />director at
+                99media ltd
+              </li>
+              <li>
+                <img src="images/profile-job.png" alt="" /> studies at director
+              </li>
+            </ul>
+          </div>
+
+          <div class="profile-intro">
+            <div class="title-box">
+              <h3>Photos</h3>
+              <a href="">ALL photos</a>
+            </div>
+            <div class="photo-box">
+              <div>
+              
+                <img src="images/photo5.png" alt="">
+                <img src="images/photo6.png" alt="">
+                <img src="images/photo1.png" alt="">
+                <img src="images/photo2.png" alt="">
+                <img src="images/photo3.png" alt="">
+                <img src="images/photo4.png" alt="">
+                <img src="images/photo5.png" alt="">
+                <img src="images/photo6.png" alt="">
+                <img src="images/photo1.png" alt="">
+                <img src="images/photo2.png" alt="">
+                <img src="images/photo3.png" alt="">
+                <img src="images/photo4.png" alt="">
+                <img src="images/photo5.png" alt="">
+                <img src="images/photo6.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="post-col">
+          <div class="write_post_container">
+            <div class="user_profile">
+              <img src="./imges/profile_picture.png" />
+              <div>
+                <p>Abushe</p>
+                <small>PUplic <i class="fas fa_create_down"></i></small>
+              </div>
+            </div>
+            <div class="post_input_container">
+              <textarea rows="3" placeholder="what is on your mind"> </textarea>
+              <div class="add_post_links">
+                <a href="#"> <img src="./imges/video.png" /> live video </a>
+                <a href="#"> <img src="./imges/photo.png" />photo video </a>
+                <a href="#">
+                  <img src="./imges/feelig.png" /> feeling activity
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="post_container">
+            <div class="post_row">
+              <div class="user_profile">
+                <img src="./imges/profile_picture.png" />
+                <div>
+                  <p>Abushe</p>
+                  <span>june 24 2024 13:45 pm</span>
+                </div>
+              </div>
+              <a href="#"><img src="./imges/3dot.png" alt="" /></a>
+            </div>
+            <p class="post_text">
+              Subscribe <span>@Easy Tutorial</span> Youtube channel to watch
+              more video on website development and ui design
+              <a href="#">#easiy tutorial</a>
+              <a href="#">youtube channal</a>
+            </p>
+            <img src="./imges/feed.png" class="post_image" />
+            <div class="post_row">
+              <div class="activety_icon">
+                <div><img src="./imges/like.png" alt="" />45k</div>
+                <div><img src="./imges/comment.png" alt="" />23k</div>
+                <div><img src="./imges/share.png" alt="" />12k</div>
+              </div>
+              <div class="post_profile_icon">
+                <img src="imges/profile_picture.png" alt="" />
+                <i class="fas fa_create_down"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="post_container">
+            <div class="post_row">
+              <div class="user_profile">
+                <img src="./imges/profile_picture.png" />
+                <div>
+                  <p>Abushe</p>
+                  <span>june 24 2024 13:45 pm</span>
+                </div>
+              </div>
+              <a href="#"><img src="./imges/3dot.png" alt="" /></a>
+            </div>
+            <p class="post_text">
+              like and share this video whi frainds
+              <span>@Easy Tutorial</span> facebook page on your post ask your
+              doubt in the commennt <a href="#">#easiy tutorial</a>
+              <a href="#">youtube channal</a>
+            </p>
+            <img src="./imges/feed1.png" class="post_image" />
+            <div class="post_row">
+              <div class="activety_icon">
+                <div><img src="./imges/like.png" alt="" />45k</div>
+                <div><img src="./imges/comment.png" alt="" />23k</div>
+                <div><img src="./imges/share.png" alt="" />12k</div>
+              </div>
+              <div class="post_profile_icon">
+                <img src="imges/profile_picture.png" alt="" />
+                <i class="fas fa_create_down"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="post_container">
+            <div class="post_row">
+              <div class="user_profile">
+                <img src="./imges/profile_picture.png" />
+                <div>
+                  <p>Abushe</p>
+                  <span>june 24 2024 13:45 pm</span>
+                </div>
+              </div>
+              <a href="#"><img src="./imges/3dot.png" alt="" /></a>
+            </div>
+            <p class="post_text">
+              like and share this video whi frainds
+              <span>@Easy Tutorial</span> facebook page on your post ask your
+              doubt in the commennt <a href="#">#easiy tutorial</a>
+              <a href="#">youtube channal</a>
+            </p>
+            <img src="./imges/feed3.png" class="post_image" />
+            <div class="post_row">
+              <div class="activety_icon">
+                <div><img src="./imges/like.png" alt="" />45k</div>
+                <div><img src="./imges/comment.png" alt="" />23k</div>
+                <div><img src="./imges/share.png" alt="" />12k</div>
+              </div>
+              <div class="post_profile_icon">
+                <img src="imges/profile_picture.png" alt="" />
+                <i class="fas fa_create_down"></i>
+              </div>
+            </div>
+          </div>
+          <div class="post_container">
+            <div class="post_row">
+              <div class="user_profile">
+                <img src="./imges/profile_picture.png" />
+                <div>
+                  <p>Abushe</p>
+                  <span>june 24 2024 13:45 pm</span>
+                </div>
+              </div>
+              <a href="#"><img src="./imges/3dot.png" alt="" /></a>
+            </div>
+            <p class="post_text">
+              Subscribe <span>@Easy Tutorial</span> Youtube channel to watch
+              more video on website development and ui design
+              <a href="#">#easiy tutorial</a>
+              <a href="#">youtube channal</a>
+            </p>
+            <img src="./imges/feed.png" class="post_image" />
+            <div class="post_row">
+              <div class="activety_icon">
+                <div><img src="./imges/like.png" alt="" />45k</div>
+                <div><img src="./imges/comment.png" alt="" />23k</div>
+                <div><img src="./imges/share.png" alt="" />12k</div>
+              </div>
+              <div class="post_profile_icon">
+                <img src="imges/profile_picture.png" alt="" />
+                <i class="fas fa_create_down"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="post_container">
+            <div class="post_row">
+              <div class="user_profile">
+                <img src="./imges/profile_picture.png" />
+                <div>
+                  <p>Abushe</p>
+                  <span>june 24 2024 13:45 pm</span>
+                </div>
+              </div>
+              <a href="#"><img src="./imges/3dot.png" alt="" /></a>
+            </div>
+            <p class="post_text">
+              like and share this video whi frainds
+              <span>@Easy Tutorial</span> facebook page on your post ask your
+              doubt in the commennt <a href="#">#easiy tutorial</a>
+              <a href="#">youtube channal</a>
+            </p>
+            <img src="./imges/feed1.png" class="post_image" />
+            <div class="post_row">
+              <div class="activety_icon">
+                <div><img src="./imges/like.png" alt="" />45k</div>
+                <div><img src="./imges/comment.png" alt="" />23k</div>
+                <div><img src="./imges/share.png" alt="" />12k</div>
+              </div>
+              <div class="post_profile_icon">
+                <img src="imges/profile_picture.png" alt="" />
+                <i class="fas fa_create_down"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="post_container">
+            <div class="post_row">
+              <div class="user_profile">
+                <img src="./imges/profile_picture.png" />
+                <div>
+                  <p>Abushe</p>
+                  <span>june 24 2024 13:45 pm</span>
+                </div>
+              </div>
+              <a href="#"><img src="./imges/3dot.png" alt="" /></a>
+            </div>
+            <p class="post_text">
+              like and share this video whi frainds
+              <span>@Easy Tutorial</span> facebook page on your post ask your
+              doubt in the commennt <a href="#">#easiy tutorial</a>
+              <a href="#">youtube channal</a>
+            </p>
+            <img src="./imges/feed3.png" class="post_image" />
+            <div class="post_row">
+              <div class="activety_icon">
+                <div><img src="./imges/like.png" alt="" />45k</div>
+                <div><img src="./imges/comment.png" alt="" />23k</div>
+                <div><img src="./imges/share.png" alt="" />12k</div>
+              </div>
+              <div class="post_profile_icon">
+                <img src="imges/profile_picture.png" alt="" />
+                <i class="fas fa_create_down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>copyright 2024 easy tutorial channal</p>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
